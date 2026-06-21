@@ -1,0 +1,101 @@
+h1 {
+    box-shadow: 0 10px 10px 0 lab(82.92% 0.69 0.23 / 0.866), 0 20px 20px 0 rgba(228, 228, 228, 0.953);
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(18, 2, 2);
+    text-shadow: 2px 2px 7px #7e1919; color: #0f0e0e;
+    font-size: 60px;
+    margin: 40px;
+    padding: 60px;
+    background-color: rgba(211, 201, 201, 0.8);
+}
+body {
+    background-image: url(5.jpg);
+    background-size: cover;
+}
+.testclass {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(18, 2, 2);
+    text-shadow: 5px 5px 5px #d93535; color: #d2cccc;
+    font-size: 20px; 
+}
+.classpic {
+    display: block;
+    width: 40%;
+    box-shadow: 0 10px 10px 0 lab(82.92% 0.69 0.23 / 0.866), 0 20px 20px 0 rgba(228, 228, 228, 0.953);
+    border-radius: 20px;
+    margin: 60px auto;
+}
+img[src="4.jpg"] {
+    height: 500px;
+}
+blockquote {
+    border-left: solid 5px #c8ff00;
+    border-right: solid 5px #c8ff00;
+    margin: 40px 0;
+    margin-left: 33%;
+    margin-right: 33%;
+    box-shadow: #d2cccc 0px 5px 5px 0px, #d2cccc 0px 5px 5px 0px;
+    clip-path: inset(0% -100% 0% -100%);
+}
+a {
+    color: #570b0b;
+    text-shadow: 7px 7px 7px #430707; color: #c8ff00;
+    text-shadow: 2px 2px 2px #430707; color: #d6deba;
+}
+nav {
+    font-size: 30px;
+    padding: 20px;
+}
+#testlink {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+#testlinks {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+mark {
+    background-color: #bcf86e;
+    color: #0b0808;
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(222, 222, 209, 0.211);
+
+}
+ul {
+   list-style-type: none;
+   padding: 0;
+   max-width: 400px;
+   margin: 30px auto;
+   text-align: left;
+}
+li {
+    color: #d2cccc;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 5px solid #c8ff00;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+li:hover {
+    background: rgba(0, 0, 0, 0.7);
+    transform: translateX(5px); 
+}
+table {
+    display: table;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(218, 227, 188, 0.75);
+    box-shadow: 0 0px 40px 0 rgba(252, 251, 252, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
